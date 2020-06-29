@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/vitrine.css">
+</head>
+<body>
+<?php require "header.php"?>
     <h2>Programme ICSS 2020</h2>
     <table class="planning">
         <tr>
@@ -83,4 +87,7 @@
             <td>Jour 16</td>
             <td>Soutenance Projet MyDevBlog</td>
         </tr>        <tr>
+</body>
      </table>
+     <?php require "footer.php"?>
+     </html>

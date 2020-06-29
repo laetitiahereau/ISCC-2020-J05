@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/vitrine.css">
-    <h2>Contact</h2>
+</head>
+    <body>
+        <?php require "header.php"?>
+<h2>Contact</h2>
 <fieldset>
     <fieldset>
         <label for="nom et prénom">Votre nom</label>
@@ -21,5 +25,6 @@
     </fieldset>
     <p>
         <input type="submit" value="Envoyer" />
-    </p>
-</fieldset>
+</body>
+<?php require "footer.php"?>
+</html>
