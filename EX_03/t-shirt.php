@@ -24,10 +24,10 @@ echo "Acheter la totalité des produits disponibles coûterait " . $prix * $quan
 echo "Si 3 produits sont vendus il reste " . ($quantite - 3) . "en stock " 
 ?>
 <p><?php
-if ($disponible = "true")
+if ($disponible == true)
 echo " Le produit " . $nom_produit ." est disponible en ligne ";
 ?> 
 </p>
 <p><?php
-if ($quantite = "10")
+if ($quantite == 10)
 echo " Il reste " . $quantite ." produits en magasin ";
